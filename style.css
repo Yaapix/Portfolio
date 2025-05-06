@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+body::-webkit-scrollbar {
+    width: 25px;
+}
+body::-webkit-scrollbar-track {
+    background: white;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+    
+
+body
+{
+    background: linear-gradient(180deg, blue, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button
+{
+    border-radius: 50px;
+    border-width: 0.15px;
+    transition: 1s;
+    width: 125px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    box-shadow: 0, 4px, 5px, rgba(0, 0, 0, 0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover
+{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    transform: 1s;
+}
+
+strong
+{
+    color: blue;
+}
+
+.cuerpo
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.3);
+}
+.titulo
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid;
+    border-radius: 50px;
+    border-width: 0.15px;
+    border-color: blue;
+    width: 250px;
+    height: 75px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.titulo:hover
+{
+    background-color: blue;
+    transform: 1s;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+}
+
+.boton-sobre-mi
+{
+    position: relative;
+    margin-right: 30px;
+}
+
+
+.boton-contacto
+{
+    position: relative;
+    margin-left: 20px;
+}
+
+
+.boton-formacion
+{
+    position: relative;
+    margin-right: 20px;
+}
+
+.boton-proyectos
+{
+    position: relative;
+    margin-left: 20px;
+}
+
+
+.boton-contacto
+{
+    position: relative;
+    margin-left: 30px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: "Zain", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.texto-inicio
+{
+    margin-top: -35px;
+}
+
+ul
+{
+    margin-top: -25px;
+}
+
+.contenedor-foto
+{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.foto
+{
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.introduccion
+{
+    margin-left: 200px;
+    margin-top: -185px;
+}
+
+.mi-formacion
+{
+    margin-top: -20px;
+}
+
+.p-formacion
+{
+    margin-top: -30px;
+}
+
+.introduccion-sobre-mi
+{
+    margin-top: -20px;
+}
+
+.p-sobre-mi
+{
+    margin-top: -35px;
+}
+
